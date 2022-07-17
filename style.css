@@ -70,7 +70,7 @@ h1, h2, h3, h4 {
 }
 
 iframe {
-    top: 700px;
+    top: 750px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -160,33 +160,39 @@ h3 {
 }
 
 @media (max-width: 940px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
     #feature__section{
-
        top: 400px; 
     }
     
 
     iframe{
-        top: 800px;
+        top: 920px;
+        max-width: 90%;
+        height: 300px;
     }
 }
 
 @media (max-width: 620px){
 
 
-header{
-    flex-direction: column;
+    header{
+        flex-direction: column;
 
-}
+    }
 
-header nav {
-    flex-direction: column;
-}
+    header nav {
+        flex-direction: column;
+    }
 
-header + form + section +section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    header + form + section +section{
+        top: 1600px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
