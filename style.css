@@ -65,10 +65,19 @@ form input[type=submit] {
     cursor: pointer;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, input[type=submit] {
     font-family: "Poppins", sans-serif;
 }
 
+
+p {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+iframe {
+    top: 700px;
 iframe {
     top: 750px;
     left: 50%;
@@ -107,6 +116,14 @@ iframe {
     left: -100px;
     font-size: 50px;
 }
+
+
+@media (max-width: 900px) {
+    section {
+        top: 300px;
+    }
+}
+
 
 header + form + section +section{
      display: flex;
@@ -196,3 +213,4 @@ h3 {
     }
 
 }
+
